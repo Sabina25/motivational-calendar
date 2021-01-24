@@ -1,10 +1,10 @@
 import "./App.css";
-import Quotes from "./components/Quotes";
+import Calendar from "./components/Calendar/Calendar";
 
 function App() {
   return (
-    <div className="App">
-      <Quotes />
+    <div className="wrapper ">
+      <Calendar />
     </div>
   );
 }
